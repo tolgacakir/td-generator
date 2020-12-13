@@ -147,7 +147,7 @@ function setListFromArray(array, listId) {
     document.getElementById(listId).innerHTML =
       document.getElementById(listId).innerHTML +
       '<li><a class="dropdown-item" style="color: #b8b8b8;" href="#">' +
-      clubs[i] +
+      array[i] +
       "</a></li>";
   }
 }
