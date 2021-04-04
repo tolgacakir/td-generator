@@ -98,7 +98,7 @@ var m = htmlManagers.addEventListener("click", function (e) {
     document.getElementById("manager").innerHTML = "~";
   }
   else{
-    document.getElementById("manager").style.color = "#f95858"; 
+    document.getElementById("manager").style.color = "#960012"; 
     document.getElementById("manager").innerHTML = selectedManager;
   }
 });
@@ -112,7 +112,7 @@ var c= htmlClubs.addEventListener("click", function (e) {
     document.getElementById("club").innerHTML = "~";
   }
   else{
-    document.getElementById("club").style.color ="#f95858"; 
+    document.getElementById("club").style.color = "#960012"; 
     document.getElementById("club").innerHTML = selectedClub;
   }
   
